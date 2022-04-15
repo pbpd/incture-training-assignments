@@ -1,0 +1,35 @@
+<mvc:View
+    controllerName="io.pb.q2searchlist.controller.HomeView"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>title}">
+                    <content >
+                        <SearchField id="_IDGenSearchField1" width="90%"  search="onChnge" class="sapUiSmallMargin" />
+                        <List headerText="Customer List" id="CustomerList" items="{jsonModel>/results}">
+                            <CustomListItem id="_IDGenCustomListItem1">
+                            <VBox id="_IDGenVBox1" class="sapUiSmallMarginBegin sapUiSmallMarginTopBottom" >
+                            
+                            <Label id="_IDGenLabel1" text="ID: {jsonModel>CustomerID}"/>
+                            <Label id="_IDGenLabel2" text="Company Name: {jsonModel>CompanyName}"/>
+                            <Label id="_IDGenLabel3" text="Contact Name: {jsonModel>ContactName}"/>
+                            <Label id="_IDGenLabel4" text="Title: {jsonModel>ContactTitle}"/>
+                            <Label id="_IDGenLabel5" text="Address: {jsonModel>Address}"/>
+                            <Label id="_IDGenLabel6" text="City: {jsonModel>City}"/>
+                            <Label id="_IDGenLabel7" text="PostalCode: {jsonModel>PostalCode}"/>
+                            <Label id="_IDGenLabel8" text="Country: {jsonModel>Country}"/>
+                            <Label id="_IDGenLabel9" text="Phone: {jsonModel>Phone}"/>
+                            <Label id="_IDGenLabel10" text="Fax: {jsonModel>Fax}"/>
+                            </VBox>
+                            </CustomListItem>
+                        </List>
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>
