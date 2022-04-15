@@ -1,0 +1,41 @@
+<mvc:View
+    controllerName="io.pb.cssmodelsbindings.controller.HomeView"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>title}">
+                    <content>
+                        <VBox id="vb1">
+                            <Label text="Custom CSS Styling" id="label1"/>
+                            <List headerText="Question 2" id="productListJSON" items="{path: '/Products'}">
+                                <items>
+                                    <StandardListItem id="1" title="{productId}" description="{productName}"/>
+                                </items>
+                            </List>
+                            
+                            <List headerText="Question 3" id="productListXML" items="{cust>/Customers}">
+                                <items>
+                                    <StandardListItem 
+                                        id="2" title="{cust>CustomerID}" description="Name : {cust>CustomerName}" />
+                                </items>
+                            </List>
+
+                            <List headerText="Question 4" id="productListNorthWind" items="{path: '/Products'}">
+                                <items>
+                                    <ObjectListItem id="oil1" title="{productName}" number="{unitPrice}" numberUnit="EUR"
+                                    numberState="{= ${unitPrice} > 90? 'Warning': 'Success'}"></ObjectListItem>
+                                </items>
+                            </List>
+                            
+
+                        </VBox>
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>

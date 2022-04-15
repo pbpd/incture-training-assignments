@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModelData>
+    <Customers>
+        <CustomerID>1</CustomerID>
+        <CustomerName>Pratyush Rout</CustomerName>
+        <CustomerPlace>Cuttack</CustomerPlace>
+    </Customers>
+    <Customers>
+        <CustomerID>2</CustomerID>
+        <CustomerName>Sambit Pradhan</CustomerName>
+        <CustomerPlace>Kolkata</CustomerPlace>
+    </Customers>
+    <Customers>
+        <CustomerID>3</CustomerID>
+        <CustomerName>Swarup Satpathy</CustomerName>
+        <CustomerPlace>Bhubaneswar</CustomerPlace>
+    </Customers>
+</ModelData>
