@@ -8,10 +8,10 @@
                   <Table items="{model>/}" inset="false">
                      <columns>
                         <Column width="12em">
-                           <Text text="{path:'i18n>title',formatter:'.formatter.clr'}" id="lbl" />
+                           <Text text="Front-end Frameworks" id="lbl" />
                         </Column>
                         <Column minScreenWidth="tablet" demandPopin="true">
-                           <Text  text="Things" />
+                           <Text  text="Popularity" />
                         </Column>
                      </columns>
                      <items>

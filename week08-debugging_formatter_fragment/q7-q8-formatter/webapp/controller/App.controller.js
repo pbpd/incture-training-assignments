@@ -15,11 +15,11 @@ sap.ui.define([
                 // set data model on view
                 var oData = [{
                     order: "X",
-                    value: 20
+                    value: 34
                 },
                 {
                     order: "Y",
-                    value: 30
+                    value: 56
                 }];
                 var oModel = new JSONModel(oData);
                 this.getView().setModel(oModel, "model");
