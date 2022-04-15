@@ -1,0 +1,37 @@
+<mvc:View
+    controllerName="io.pb.input.controller.HomeView"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:core = "sap.ui.core"
+>
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>title}">
+                    <content>
+                        <VBox id="id1" width="25%">
+                        <Label id="idl1" text="{i18n>selectlang}"></Label>
+                        <ComboBox id="desireLang" selectedKey="{i18n>lang}" selectionChange="changeLang">
+                                <core:Item id="idm1" key="English" text="English" />
+                                <core:Item id="idm2" key="Arabic" text="Arabic" />
+                                <core:Item id="idm3" key="French" text="French" />
+                            </ComboBox>
+                        
+                        <Label id="idl2" text="{i18n>name}"></Label>
+                        <Input id="idi1" type="Text" placeholder="{i18n>pn}" ></Input>
+                        <Label id="idl3" text="{i18n>id}"></Label>
+                        <Input id="idi2" placeholder="{i18n>pid}" ></Input>
+                        <Label id="idl4" text="{i18n>desgn}"></Label>
+                        <Input id="idi3" type="Text" placeholder="{i18n>pd}" ></Input>
+                        <Label id="idl5" text="{i18n>place}"></Label>
+                        <Input id="idi4" type="Text" placeholder="{i18n>pp}" ></Input>
+                        <Label id="idl6" text="{i18n>dept}"></Label>
+                        <Input id="idi5" type="Text" placeholder="{i18n>pdep}" ></Input>
+                        </VBox>
+                        </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>
