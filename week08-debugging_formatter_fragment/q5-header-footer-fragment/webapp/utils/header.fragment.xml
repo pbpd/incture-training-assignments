@@ -1,0 +1,10 @@
+<core:FragmentDefinition
+    id="fragHeader"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+    <Toolbar id="id1">
+        <ToolbarSpacer />
+        <Title text="Header"/>
+        <ToolbarSpacer />
+    </Toolbar>
+</core:FragmentDefinition>

@@ -1,0 +1,35 @@
+<mvc:View
+    controllerName="io.pb.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:l="sap.ui.layout"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>title}">
+                    <content >
+                        <l:VerticalLayout id="id" class="sapUiContentPadding" width="100%">
+                            <Button
+                                id="id9"
+                                text="Message Dialog (Success)"
+                                width="230px"
+                                press=".onSuccessMessageDialogPress"
+                                class="sapUiSmallMarginBottom"
+                                 />
+		
+	                        </l:VerticalLayout>
+                            <l:VerticalLayout id="id1" class="sapUiResponsiveMargin" width="50%">
+                                <Label id="id2" text="Enter your nameme:" labelFor="id3" />
+                                    <Input id="id4" placeholder="Name" value="{/recipient/name}"></Input>
+                                    <Label id="id3" text="Enter your contact number:" labelFor="fsda"/>
+                                    <Input id="id6" placeholder="Contact number" type="Number" value="{/recipient/number}"></Input>
+                                    <Button id="id76" text="Submit" press="onPress" />
+                     </l:VerticalLayout>
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>

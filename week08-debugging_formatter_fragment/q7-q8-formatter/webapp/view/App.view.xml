@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="q7q8formatter.controller.App" displayBlock="true">
+   <Shell id="shell">
+      <App id="app">
+         <pages>
+            <Page id="page" title="{i18n>title}">
+               <content>
+                  <Table items="{model>/}" inset="false">
+                     <columns>
+                        <Column width="12em">
+                           <Text text="{path:'i18n>title',formatter:'.formatter.clr'}" id="lbl" />
+                        </Column>
+                        <Column minScreenWidth="tablet" demandPopin="true">
+                           <Text  text="Things" />
+                        </Column>
+                     </columns>
+                     <items>
+                        <ColumnListItem vAlign="Middle">
+                           <cells>
+                              <Text text="{path:'model>order',formatter:'.formatter.Change'}" />
+                              <Text text="{model>value}" class="red" />
+                           </cells>
+                        </ColumnListItem>
+                     </items>
+                  </Table>
+               </content>
+            </Page>
+         </pages>
+      </App>
+   </Shell>
+</mvc:View>

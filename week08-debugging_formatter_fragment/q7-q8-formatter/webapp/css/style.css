@@ -1,0 +1,13 @@
+/* Enter your custom styles here */
+.green{
+    background-color: green !important;
+    color: white !important;
+    padding: 10px !important;
+}
+
+.red {
+    background-color: yellow !important;
+    color: black !important;
+    padding: 10px !important;
+}
+   

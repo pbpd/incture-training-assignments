@@ -1,0 +1,10 @@
+<core:FragmentDefinition
+    id="fragFooter"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+    <OverflowToolbar id="toolbar">
+        <ToolbarSpacer />
+        <Title text="Footer"/>
+        <ToolbarSpacer />
+    </OverflowToolbar>
+</core:FragmentDefinition>

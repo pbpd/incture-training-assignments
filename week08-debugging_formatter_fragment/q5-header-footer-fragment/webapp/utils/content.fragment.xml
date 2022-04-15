@@ -1,0 +1,7 @@
+<core:FragmentDefinition
+    id="fragContent"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    controllerName="q5headerfooterfragment.controller.App">
+    <Text  text="This is Content"/>
+</core:FragmentDefinition>
