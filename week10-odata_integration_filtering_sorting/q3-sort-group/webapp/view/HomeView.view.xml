@@ -1,0 +1,22 @@
+<mvc:View
+    controllerName="io.pb.q3sortgroup.controller.HomeView"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>title}">
+                    <content>
+                        <List id="id1" items ="{path: 'jsonModel>/results',sorter:{path:'ShipperName',descending: false ,group:true}}">
+                           <items>
+                               <StandardListItem id="id2" description="{ProductName}" title="{jsonModel>ProductName}"/>
+                           </items>
+                         </List>                       
+                     </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>
