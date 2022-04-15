@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="io.pb.q1table.controller.HomeView" displayBlock="true">
+   <Shell id="shell">
+      <App id="app">
+         <pages>
+            <Page id="page" title="{i18n&gt;title}">
+               <content>
+                  <Table items="{/Employees}" id="table0">
+                     <items>
+                        <ColumnListItem type="Active" id="item0">
+                           <cells>
+                              <Text id="id1" text="{EmployeeID}" />
+                              <Text id="id2" text="{FirstName}" />
+                              <Text id="id3" text="{LastName}" />
+                              <Text id="id4" text="{Title}" />
+                              <Text id="id5" text="{TitleOfCourtesy}" />
+                              <Text id="id6" text="{BirthDate}" />
+                              <Text id="id7" text="{HireDate}" />
+                              <Text id="id8" text="{Address}" />
+                              <Text id="id9" text="{City}" />
+                              <Text id="id10" text="{Region}" />
+                              <Text id="id11" text="{PostalCode}" />
+                              <Text id="id12" text="{Country}" />
+                              <Text id="id13" text="{HomePhone}" />
+                              <Text id="id14" text="{Extension}" />
+                           </cells>
+                        </ColumnListItem>
+                     </items>
+                     <columns>
+                        <Column id="idc1">
+                           <Label id="idl1" text="ID" />
+                        </Column>
+                        <Column id="column1">
+                           <Label text="First Name" id="label1" />
+                        </Column>
+                        <Column id="column2">
+                           <Label text="Last Name" id="label2" />
+                        </Column>
+                        <Column id="idc2">
+                           <Label id="idl2" text="Title" />
+                        </Column>
+                        <Column id="idc3">
+                           <Label id="idl3" text="Title Of Courtesy" />
+                        </Column>
+                        <Column id="idc4">
+                           <Label id="idl4" text="Birth Date" />
+                        </Column>
+                        <Column id="idc5">
+                           <Label id="idl5" text="Hire Date" />
+                        </Column>
+                        <Column id="idc6">
+                           <Label id="idl6" text="Address" />
+                        </Column>
+                        <Column id="idc7">
+                           <Label id="idl7" text="City" />
+                        </Column>
+                        <Column id="idc8">
+                           <Label id="idl8" text="Region" />
+                        </Column>
+                        <Column id="idc9">
+                           <Label id="idl9" text="PostalCode" />
+                        </Column>
+                        <Column id="idc10">
+                           <Label id="idl10" text="Country" />
+                        </Column>
+                        <Column id="idc11">
+                           <Label id="idl11" text="HomePhone" />
+                        </Column>
+                        <Column id="idc12">
+                           <Label id="idl12" text="Extension" />
+                        </Column>
+                     </columns>
+                  </Table>
+               </content>
+            </Page>
+         </pages>
+      </App>
+   </Shell>
+</mvc:View>
