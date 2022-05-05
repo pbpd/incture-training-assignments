@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/tailwind.css">
+  <title>UI5 WK03 Donut Shop</title>
+</head>
+
+<body>
+  <div class="min-h-screen flex items-center justify-center bg-blue-400">
+    <!-- form -->
+    <div class="bg-white p-16 rounded shadow-2x1 w-1/2">
+      <h2 class="text-3xl font-bold mb-10 text-purple-700">Donut Shop</h2>
+
+      <form class="space-y-4">
+        <div>
+          <label class="form-label" for="name">Name</label>
+          <input class="form-input" type="text" id="name" placeholder="Your Name">
+        </div>
+        <div>
+          <label class="form-label" for="cakeDonuts">Cake Donuts</label>
+          <input class="form-input" type="number" id="cakeDonuts" placeholder="No. of dozens">
+        </div>
+        <div>
+          <label class="form-label" for="bakedDonuts">Baked Donuts</label>
+          <input class="form-input" type="number" id="bakedDonuts" placeholder="No. of dozens">
+        </div>
+        <div>
+          <label class="form-label" for="minutes">Number of minutes</label>
+          <input class="form-input" type="number" id="minutes" placeholder="No. of minutes">
+        </div>
+        <div>
+          <label class="form-label" for="Subtotal">Subtotal</label>
+          <input class="form-input" type="number" id="Subtotal" placeholder="Subtotal">
+        </div>
+        <div>
+          <label class="form-label" for="tax">Tax</label>
+          <input class="form-input" type="number" id="tax" placeholder="Tax">
+        </div>
+        <div>
+          <label class="form-label" for="total">Total</label>
+          <input class="form-input" type="number" id="total" placeholder="Total">
+        </div>
+
+        <button type="submit">Place Order</button>
+      </form>
+    </div>
+  </div>
+  <script src="./scripts/script.js"></script>
+</body>
+
+</html>

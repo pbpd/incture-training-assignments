@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "name": "John Doe",
+    "branch": "Information Technology",
+    "totalSemesters": "8",
+    "subject": [
+      {
+        "subId": "101",
+        "subName": "Data Structures and Algorithms"
+      },
+      {
+        "subId": "102",
+        "subName": "Compiler Theory"
+      },
+      {
+        "subId": "103",
+        "subName": "Realational Database Management System"
+      },
+      {
+        "subId": "104",
+        "subName": "Microcontroller"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Jane Doe",
+    "branch": "Computer Science Engineering",
+    "totalSemesters": "8",
+    "subject": [
+      {
+        "subId": "101",
+        "subName": "Data Structures and Algorithms"
+      },
+      {
+        "subId": "105",
+        "subName": "IOT"
+      },
+      {
+        "subId": "106",
+        "subName": "Python Programming"
+      },
+      {
+        "subId": "107",
+        "subName": "OOP"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "John Cena",
+    "branch": "Electronics and Telecommunication Enginnering",
+    "totalSemesters": "8",
+    "subject": [
+      {
+        "subId": "108",
+        "subName": "Basics of Programming"
+      },
+      {
+        "subId": "109",
+        "subName": "Computer Architecture"
+      },
+      {
+        "subId": "110",
+        "subName": "Embedded Systems"
+      },
+      {
+        "subId": "101",
+        "subName": "Data Structures and Algorithms"
+      }
+    ]
+  }
+]

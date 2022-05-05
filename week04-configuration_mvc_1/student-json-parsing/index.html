@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/tailwind.css">
+  <title>JSON Parsing</title>
+</head>
+
+<body>
+  <div class="container w-2/3 mx-auto">
+    <h1 class="text-center text-5xl my-10">
+      Student Data <span class="font-light text-lg">(parsed from json)</span>
+    </h1>
+    <table class="min-w-full">
+      <thead class="border-b">
+        <tr>
+          <th scope="col" class="table-head">ID</th>
+          <th scope="col" class="table-head">Name</th>
+          <th scope="col" class="table-head">Branch</th>
+          <th scope="col" class="table-head">Total Semesters</th>
+          <th scope="col" class="table-head">Subjects</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+      </tbody>
+    </table>
+  </div>
+
+  <script src="./scripts/script.js"></script>
+</body>
+
+</html>

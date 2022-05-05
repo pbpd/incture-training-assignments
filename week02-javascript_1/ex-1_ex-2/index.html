@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/bulma.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <title>Record Professions</title>
+</head>
+
+<body>
+  <div class="container mt-5">
+    <h1 class="is-size-1 has-text-centered mb-5">Record Candidate Data</h1>
+
+    <form action="" class="">
+      <div class="field mb-5">
+        <label for="firstName" class="label">First Name</label>
+        <div class="control">
+          <input type="text" class="input" placeholder="John" name="firstName" id="firstName" />
+        </div>
+      </div>
+      <div class="field mb-5">
+        <label for="lastName" class="label">Last Name</label>
+        <div class="control">
+          <input type="text" class="input" placeholder="Doe" name="lastName" id="lastName" />
+        </div>
+      </div>
+      <div class="field mb-5">
+        <label class="label">Gender</label>
+        <div class="control">
+          <div class="select">
+            <select id="gender">
+              <option value="male">Male</option>
+              <option value="femalw">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="field mb-5">
+        <label for="age" class="label">Age</label>
+        <div class="control">
+          <input type="number" class="input" min="15" placeholder="32" name="age" id="age" />
+        </div>
+        <p class="help">Provide age in whole numbers only.</p>
+      </div>
+      <div class="field mb-5">
+        <label class="label">Specialization</label>
+        <div class="control">
+          <div class="select">
+            <select id="specialization">
+              <option value="male">Software Engineering</option>
+              <option value="femalw">Design UI/UX</option>
+              <option value="other">Sales & Marketing</option>
+              <option value="other">Product Development</option>
+              <option value="other">Data Engineer</option>
+              <option value="other">HR Management</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="field mb-5">
+        <label for="experience" class="label">Years of Experience</label>
+        <div class="control">
+          <input type="number" class="input" min="0" step="1" placeholder="0" oninput="validity.valid||(value='');"
+            name="experience" id="experience" />
+        </div>
+        <p class="help">Provide experience in whole numbers only.</p>
+      </div>
+
+      <div id="achievements"></div>
+      <button type="button" class="button is-success mb-5" onclick="addAchivement()">
+        Add Achievements
+      </button>
+      <div class="field">
+        <div class="control">
+          <button class="button is-link is-medium is-fullwidth" id="submit"">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script src=" ./scripts/index.js"></script>
+</body>
+
+</html>
