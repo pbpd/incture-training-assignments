@@ -1,0 +1,24 @@
+<mvc:View
+    controllerName="assignment1.controller.detailView"
+	xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+	xmlns="sap.m"
+>
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page1" title="Detail View" showNavButton="true" navButtonPress="onNavBack">
+					<Panel id="panel1">
+						<ObjectHeader binding="{empAdditionalData>/}" id="header1">
+							<ObjectAttribute id="obj0"  text="Employee ID: {empAdditionalData>id}"/>
+							<ObjectAttribute id="obj1" text="Name: {empAdditionalData>Name}"/>
+							<ObjectAttribute id="obj2" text="Department: {empAdditionalData>Department}" />
+							<ObjectAttribute id="obj3" text="Gender: {empAdditionalData>Gender}"/>
+							<ObjectAttribute id="obj4" text="Base Location: {empAdditionalData>Base Location}"/>
+						</ObjectHeader>
+					</Panel>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

@@ -1,0 +1,56 @@
+[
+    {
+        "Name": "George Abraham",
+        "Department": "Products",
+        "Gender": "Male",
+        "Base Location": "Bangalore",
+        "id": "101",
+        "Additional Details": {
+            "Emergency Contact": {
+                "Name": "Shruthi",
+                "Number": "123"
+            },
+            "Home Address": {
+                "Street": "Street Name",
+                "Flat No.": "123",
+                "City": "Bangalore"
+            }
+        }
+    },
+    {
+        "Name": "Shailesh Shetty",
+        "Department": "Customer Consulting",
+        "Gender": "Male",
+        "Base Location": "Canada",
+        "id": "102",
+        "Additional Details": {
+            "Emergency Contact": {
+                "Name": "Priya",
+                "Number": "123"
+            },
+            "Home Address": {
+                "Street": "Street Name",
+                "Flat No.": "123",
+                "City": "Bangalore"
+            }
+        }
+    },
+    {
+        "Name": "Prashanth Rai",
+        "Department": "IT",
+        "Gender": "Male",
+        "Base Location": "Canada",
+        "id": "103",
+        "Additional Details": {
+            "Emergency Contact": {
+                "Name": "Suriya",
+                "Number": "197"
+            },
+            "Home Address": {
+                "Street": "Street Name",
+                "Flat No.": "123",
+                "City": "Nasik"
+            }
+        }
+    }
+]
